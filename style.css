@@ -1,0 +1,150 @@
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+
+}
+header {
+    background-color: #4bc0ee;
+    color: #fff;
+    padding: 20px;
+    height: 20px;
+    text-align: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.logo img {
+    max-width: 50px; 
+    height: auto;
+    margin-right: auto;
+    flex-basis: 100px;
+}
+
+
+
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; 
+    gap: 20px;
+}
+
+.left-sidebar,
+.right-sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+    padding:10px;
+}
+
+.fullsizeimg{
+    width: 100%;
+    height: 40%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+h2 {
+    text-align: center;
+    
+    }
+      
+    
+  
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+body {
+    font-family: arial, sans-serif;}
+    
+    /* Styla formuläret */
+#contactForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Styla formulärfälten */
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Styla submit-knappen */
+#contactForm button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #2980b9;
+}
+
+    
+
+
+
+
+
+
+
+
+
